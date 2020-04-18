@@ -1,0 +1,10 @@
+SerializeField: Se puede editar esa variable desde el inspector siendo private
+Public: esa variable puede ser llamada desde otro script y editable en el inspector.
+private: esa variable no puede ser llamada desde otro script ni editable en el inspector.
+
+
+Puede que la escena este mal escrita o que la escena no esta en el Build Settings (debe 
+tener un id re referencia en el Scene in Build).
+
+
+Puede guardar un float, int y string, debidamente identificable con su  key.
